@@ -1,0 +1,24 @@
+# ImageNet-1k Dataset Downloader Requirements
+# Core dependencies for downloading and processing ImageNet dataset
+
+# Kaggle API for dataset download
+kaggle>=1.5.16
+tqdm>=4.66.0
+
+# Standard library dependencies (usually pre-installed)
+# pathlib - for path operations
+# json - for progress tracking
+# logging - for comprehensive logging
+# argparse - for command line interface
+# concurrent.futures - for parallel processing
+# hashlib - for file integrity checks
+# zipfile - for archive extraction
+# tarfile - for tar archive extraction
+# shutil - for file operations
+# subprocess - for system commands
+# time - for timing operations
+
+# Optional: For enhanced functionality
+# tqdm used for progress bars
+# psutil>=5.9.0  # System monitoring (uncomment if needed)
+
